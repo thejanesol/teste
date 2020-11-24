@@ -1,43 +1,24 @@
 import React from "react";
-import { Link } from "react-router-dom";
-
-import HomeImage from "../../img/undraw_social_ideas_e8rj.svg";
-import FacebookLogo from "../../img/social/purple-icons/003-facebook.svg";
-import GooglePlusLogo from "../../img/social/purple-icons/002-google-plus.svg";
-import TwitterLogo from "../../img/social/purple-icons/001-twitter-logo-silhouette.svg";
-import InstagramLogo from "../../img/social/purple-icons/instagram.svg";
+import HomeImage from "../../img/home-image.svg";
 import PurpleButton from "../../components/PurpleButton";
 
+import FacebookLogo from "../../img/social-icons/purple/facebook-icon.svg";
+import GooglePlusLogo from "../../img/social-icons/purple/google-plus-icon.svg";
+import TwitterLogo from "../../img/social-icons/purple/twitter-icon.svg";
+import InstagramLogo from "../../img/social-icons/purple/instagram-icon.svg";
+
 import "./HomeContent.css";
+import SocialMediaNav from "../SocialMediaNav";
 
 const HomeContent = () => {
     return (
         <main id="home-content">
-            <section>
-                <ul id="social-media-nav">
-                    <li>
-                        <Link className="link" to="/">
-                            <img src={FacebookLogo} alt="facebook logo" />
-                        </Link>
-                    </li>
-                    <li>
-                        <Link className="link" to="/">
-                            <img src={GooglePlusLogo} alt="google plus logo" />
-                        </Link>
-                    </li>
-                    <li>
-                        <Link className="link" to="/">
-                            <img src={TwitterLogo} alt="twitter logo" />
-                        </Link>
-                    </li>
-                    <li>
-                        <Link className="link" to="/">
-                            <img src={InstagramLogo} alt="instagram logo" />
-                        </Link>
-                    </li>
-                </ul>
-            </section>
-
+            <SocialMediaNav className="home-social-icons"
+            FacebookLogo = {FacebookLogo}
+            GooglePlusLogo = {GooglePlusLogo}
+            InstagramLogo = {InstagramLogo}
+            TwitterLogo = {TwitterLogo}
+            />
             <section id="description">
                 <h1 class="word-break main-page-title">
                     <span>SOCIAL</span>

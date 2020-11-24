@@ -1,0 +1,45 @@
+#footer-content {
+    margin: 0 auto;
+
+    position: absolute;
+    bottom: 0;
+
+    width: 100vw;
+    padding: 5em 0;
+
+    display: flex;
+    justify-content: space-evenly;
+
+    color: #FFFFFF;
+    background: transparent linear-gradient(141deg, #867EFF 0%, #6159E5 100%) 0% 0% no-repeat padding-box;
+}
+
+#footer-logo {
+    margin: 2.5vh 0;
+    font-size: 1.8em;
+}
+
+#stay-in-touch-title {
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+.footer-social-icons {
+    margin-top: 5vh;   
+    
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 15vw;
+}
+
+.footer-social-icons .instagram {
+    padding: 0.2em;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+}
+
+.footer-section-title {
+    font-weight: normal;
+    font-size: 1.2em;
+}

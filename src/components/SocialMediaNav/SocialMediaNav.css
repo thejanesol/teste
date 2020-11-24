@@ -1,0 +1,8 @@
+.social-media-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    list-style: none;
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import PurpleButton from "../../components/PurpleButton";
-import AboutImage from "../../img/undraw_social_dashboard_k3pt.svg";
+import AboutImage from "../../img/about-image.svg";
 
 import "./About.css";
 

@@ -3,3 +3,14 @@
     justify-content: space-between;
     /* background: transparent linear-gradient(141deg, #867EFF 0%, #6159E5 100%) 0% 0% no-repeat padding-box; */
 }
+
+#home-logo {
+    position: absolute;
+    left: 5em;
+    top: 2em;
+
+    font-size: 1.3em;
+    font-weight: 600;
+
+    color: var(--title-color);
+}
