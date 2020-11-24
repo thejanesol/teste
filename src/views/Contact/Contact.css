@@ -10,7 +10,7 @@
     color: var(--title-color);
 }
 
-#contact-page span {
+.special-news {
     margin-left: 0.2em;
     font-size: 1.2em;
 }

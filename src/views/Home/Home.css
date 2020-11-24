@@ -1,8 +1,8 @@
 #home-page {
     display: flex;
     justify-content: space-between;
-    /* background: transparent linear-gradient(141deg, #867EFF 0%, #6159E5 100%) 0% 0% no-repeat padding-box; */
-}
+
+    background: linear-gradient(to bottom left, #9992fa -50%, #ffffff 88%);}
 
 #home-logo {
     position: absolute;

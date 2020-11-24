@@ -1,17 +1,19 @@
 #footer-content {
-    margin: 0 auto;
+    margin: 0 10vw;
 
     position: absolute;
     bottom: 0;
 
-    width: 100vw;
-    padding: 5em 0;
+    width: 80vw;
+    padding: 2em 0 0 0;
 
     display: flex;
     justify-content: space-evenly;
 
     color: #FFFFFF;
     background: transparent linear-gradient(141deg, #867EFF 0%, #6159E5 100%) 0% 0% no-repeat padding-box;
+    border-top-left-radius: 10em;
+    border-top-right-radius: 10em;    
 }
 
 #footer-logo {
@@ -20,13 +22,13 @@
 }
 
 #stay-in-touch-title {
+    margin-bottom: 4vh;
+
     font-weight: 500;
     font-size: 1.5em;
 }
 
 .footer-social-icons {
-    margin-top: 5vh;   
-    
     flex-direction: row;
     justify-content: space-between;
 
@@ -40,6 +42,31 @@
 }
 
 .footer-section-title {
-    font-weight: normal;
+    margin-bottom: 5vh;
+    font-weight: 500;
     font-size: 1.2em;
+    text-align: left;
+}
+
+#footer-content li {
+    margin-bottom: 2vh;
+
+    text-align: left;
+    font-size: 0.9rem;
+}
+
+#hours-info {
+    width: 13vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact-info {
+    width: 10.5vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.location-item {
+    margin-top: 8vh;
 }

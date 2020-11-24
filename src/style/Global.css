@@ -12,9 +12,13 @@
     overflow-x: hidden;
 }
 
+ul {
+    list-style: none;
+}
+
 .link {
     text-decoration: none;
-    /* color: #FFFFFF; */
+    color: #FFFFFF;
 }
 
 .page {
@@ -50,7 +54,7 @@
     margin-bottom: 20vh;
     
     width: 23vw;
-    height: 72vh;
+    height: 78vh;
     padding: 1em;
 
     display: flex;

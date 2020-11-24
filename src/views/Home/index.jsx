@@ -7,11 +7,13 @@ import "./Home.css";
 
 const Home = () => {
     return (
-        <section className="page" id="home-page">
-            <Logo id="home-logo"/>
-            <Navbar />
-            <HomeContent />
-        </section>
+        <>
+            <section className="page" id="home-page">
+                    <Logo id="home-logo" />
+                    <Navbar />
+                <HomeContent />
+            </section>
+        </>
     );
 };
 
