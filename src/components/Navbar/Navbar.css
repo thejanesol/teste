@@ -1,0 +1,33 @@
+#logo {
+    position: absolute;
+    left: 3em;
+    top: 2.5em;
+
+    color: var(--title-color);
+    font-weight: 600;
+}
+
+#nav-bar {
+    position: absolute;
+    top: 5vh;
+    right: 25vw;
+
+    margin: 0;
+    padding: 0;
+    padding-inline-start: 0;
+
+    width: 25vw;
+    height: 10vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    /* color: #FFFFFF; */
+    font: normal 1em;
+}

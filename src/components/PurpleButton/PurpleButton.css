@@ -1,0 +1,14 @@
+.purple-button {
+    margin-top: 1.5em;
+
+    width: 15vw;
+
+    padding: 0.8em;
+
+    background-color: #7E76F9;
+    color: #FFFFFF;
+    font-weight: 500;
+
+    border: none;
+    border-radius: 2em;
+}

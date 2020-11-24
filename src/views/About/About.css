@@ -1,0 +1,29 @@
+#about-page {
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#about-img {
+    width: 30vw;
+}
+
+#about-content {
+    margin-top: 25vh;
+    width: 40vw;
+
+    text-align: left;
+}
+
+#about-content h2 {
+    margin: 0.2em 0;
+}
+
+#last-paragraph {
+    margin-top: 2em;
+}
+
+#see-more {
+    width: 12vw;
+}

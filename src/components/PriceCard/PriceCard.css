@@ -1,0 +1,37 @@
+.price-card {
+    background-color: #FFFFFF;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.price-card-btn {
+    width: 10vw;
+
+    font-weight: normal;
+    border: 0.1px solid var(--purple);
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+.price-card-btn:hover {
+    color: #FFFFFF;
+    background-color: var(--purple);
+}
+
+.card-price-description {
+    width: 22vw;
+    height: 13vh;
+    overflow: hidden;
+}
+
+.card-price-description:hover {
+    overflow: visible;
+    height: 40vh;
+}
+
+.amount {
+    color: var(--purple) ;
+    font-size: 1.8em;
+    font-weight: 600;
+}

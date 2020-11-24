@@ -1,0 +1,27 @@
+#contact-page {
+    margin: 20vh 0;
+    text-align: center;
+}
+
+#contact-page h2 {
+    font-weight: normal;
+    color: var(--title-color);
+}
+
+#contact-page span {
+    font-size: 1.2em;
+}
+
+#email-input {
+    margin-right: 2vw;
+
+    width: 25vw;
+    padding: 0.8em;
+
+    border: none;
+    background-color: #F6F7FB;
+}
+
+.subscribe-btn {
+    width: 10vw;
+}

@@ -1,0 +1,10 @@
+.card-img, .card-title {
+    margin-bottom: 5vh;
+}
+
+.service-card-btn {
+    position: absolute;
+    right: 4vw;
+    bottom: 5vh;
+    width: 8vw;
+}
