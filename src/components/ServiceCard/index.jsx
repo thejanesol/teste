@@ -8,7 +8,7 @@ const ServiceCard = (data) => {
         <section key={data.id} id={data.id} className="card">
             <img className="card-img" src={data.image} alt={data.title}/>
             <h4 className="card-title">{data.title}</h4>
-            <p class="service-description">{data.description}</p>
+            <p className="service-description">{data.description}</p>
             <PurpleButton className={data.btnClass} id={data.btnId} title={data.btnTitle}/>
         </section>
     );

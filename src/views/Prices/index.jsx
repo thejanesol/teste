@@ -10,7 +10,7 @@ const Prices = () => {
     const [count, setCount] = useState(0);
 
     function setCurrentCardOnBtn(btnCounter) {
-        if (count === btnCounter){
+        if (count === btnCounter) {
             return "current-carousel-btn"
         }
     }
@@ -23,6 +23,7 @@ const Prices = () => {
                 {priceCards[count].map(price => {
                     return (
                         <PriceCard
+                            key={price.id}
                             id={price.id}
                             btnId={price.btnId}
                             title={price.title}
@@ -33,15 +34,15 @@ const Prices = () => {
                 })}
                 <ul id="carousel-btns">
                     <li key="price-card-btn-1" id="price-card-btn-1">
-                        <button class={`carousel-btn ${setCurrentCardOnBtn(0)}`} onClick={e => { setCount(0) }}>
+                        <button className={`carousel-btn ${setCurrentCardOnBtn(0)}`} onClick={e => { setCount(0) }}>
                         </button>
                     </li>
                     <li key="price-card-btn-2" id="price-card-btn-2">
-                        <button class={`carousel-btn ${setCurrentCardOnBtn(1)}`} onClick={e => { setCount(1) }}>
+                        <button className={`carousel-btn ${setCurrentCardOnBtn(1)}`} onClick={e => { setCount(1) }}>
                         </button>
                     </li>
                     <li key="price-card-btn-3" id="price-card-btn-3">
-                        <button class={`carousel-btn ${setCurrentCardOnBtn(2)}`} onClick={e => { setCount(2) }}>
+                        <button className={`carousel-btn ${setCurrentCardOnBtn(2)}`} onClick={e => { setCount(2) }}>
                         </button>
                     </li>
                 </ul>
