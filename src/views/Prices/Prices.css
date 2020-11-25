@@ -9,5 +9,27 @@
 }
 
 .cards-conteiner {
+    position: relative;
     width: 90vw;
+    margin-bottom: 0;
+}
+
+#carousel-btns {
+    position: absolute;
+    bottom: 10vh;
+    left: 43vw;
+    display: flex;
+}
+
+.carousel-btn {
+    margin-right: 1em;
+    width: 0.95em;
+    height: 0.9em;
+    border: 0.1px solid var(--purple);
+    border-radius: 50%;
+    outline: none;
+}
+
+.current-carousel-btn {
+    background-color: var(--purple);
 }

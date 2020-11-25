@@ -5,7 +5,7 @@ import "./PriceCard.css";
 
 const PriceCard = (data) => {
     return (
-        <section className="card price-card">
+        <section id={data.id} className="card price-card">
             <h4 className="card-title">{data.title}</h4>
             <p className="light-paragraph card-price-description">{data.description}</p>
             <p className="amount">{data.amount}</p>
