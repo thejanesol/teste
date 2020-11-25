@@ -11,7 +11,7 @@ const Contact = () => {
             <h2 className="contact-page-title">Do you want to get
             <span className="main-page-title special-news">Special News?</span></h2>
 
-            <form action="/" method="POST">
+            <form action="/">
                 <input type="email" name="email" id="email-input" required placeholder="Drop Your Email"/>
                 <PurpleButton
                 className="subscribe-btn" id="subscribe-form-btn" title="Subscribe"/>

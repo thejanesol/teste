@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
 
-    background: linear-gradient(to bottom left, #9992fa -50%, #ffffff 88%);}
+    background: linear-gradient(to bottom left, #9992fa 20%, #ffffff 100%);}
 
 #home-logo {
     position: absolute;

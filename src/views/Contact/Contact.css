@@ -17,13 +17,19 @@
 
 #email-input {
     margin-right: 2vw;
-
-    width: 25vw;
-    padding: 0.8em;
+    
+    width: 30vw;
+    height: 1vh;
+    padding: 1.5em;
 
     border: none;
     background-color: #F6F7FB;
+    border-radius: 5px;
 }
+
+#email-input::placeholder{
+    color: #c7c5c5;
+} 
 
 .subscribe-btn {
     width: 10vw;

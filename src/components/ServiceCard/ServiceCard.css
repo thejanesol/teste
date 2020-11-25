@@ -8,3 +8,9 @@
     bottom: 5vh;
     width: 8vw;
 }
+
+.service-description {
+    padding: 0 1.5em;
+    font-size: 0.9em;
+    color: #42495B;
+}

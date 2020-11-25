@@ -23,8 +23,8 @@
 
 .carousel-btn {
     margin-right: 1em;
-    width: 0.95em;
-    height: 0.9em;
+    width: 0.8vw;
+    height: 2vh;
     border: 0.1px solid var(--purple);
     border-radius: 50%;
     outline: none;

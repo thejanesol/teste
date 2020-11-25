@@ -50,11 +50,11 @@ ul {
 
 .card {
     position: relative;
-    margin: auto;
+    margin: auto 1em;
     margin-bottom: 20vh;
     
     width: 23vw;
-    height: 78vh;
+    height: 70vh;
     padding: 1em;
 
     display: flex;
