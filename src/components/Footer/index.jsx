@@ -31,11 +31,11 @@ const Footer = () => {
             <section id="quick-links">
                 <h4 className="footer-section-title">Quick links</h4>
                 <ul>
-                    <li id="quick-link-1"><Link className="link" to="/#about-page">About</Link></li>
-                    <li id="quick-link-2"><Link className="link" to="/#home-page">Home</Link></li>
-                    <li id="quick-link-3"><Link className="link" to="/#prices-page">Pricing</Link></li>
-                    <li id="quick-link-4"><Link className="link" to="/#home-page">Location</Link></li>
-                    <li id="quick-link-5"><Link className="link" to="/#home-page">Office</Link></li>
+                    <li id="quick-link-1"><Link className="link" to="/teste/#about-page">About</Link></li>
+                    <li id="quick-link-2"><Link className="link" to="/teste/#home-page">Home</Link></li>
+                    <li id="quick-link-3"><Link className="link" to="/teste/#prices-page">Pricing</Link></li>
+                    <li id="quick-link-4"><Link className="link" to="/teste/#home-page">Location</Link></li>
+                    <li id="quick-link-5"><Link className="link" to="/teste/#home-page">Office</Link></li>
                 </ul>
             </section>
 
