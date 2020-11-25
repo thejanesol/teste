@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { HashLink as Link } from 'react-router-hash-link';
 import Logo from "../../components/Logo";
 import SocialMediaNav from "../../components/SocialMediaNav";
 
@@ -31,47 +31,63 @@ const Footer = () => {
             <section id="quick-links">
                 <h4 className="footer-section-title">Quick links</h4>
                 <ul>
-                    <li><Link className="link" to="/?">About</Link></li>
-                    <li><Link className="link" to="/">Home</Link></li>
-                    <li><Link className="link" to="/?">Pricing</Link></li>
-                    <li><Link className="link" to="/?">Location</Link></li>
-                    <li><Link className="link" to="/?">Office</Link></li>
+                    <li id="quick-link-1"><Link className="link" to="/#about-page">About</Link></li>
+                    <li id="quick-link-2"><Link className="link" to="/#home-page">Home</Link></li>
+                    <li id="quick-link-3"><Link className="link" to="/#prices-page">Pricing</Link></li>
+                    <li id="quick-link-4"><Link className="link" to="/#home-page">Location</Link></li>
+                    <li id="quick-link-5"><Link className="link" to="/#home-page">Office</Link></li>
                 </ul>
             </section>
 
             <section>
                 <h4 className="footer-section-title">Hours</h4>
                 <ul id="hours-info">
-                    <li className="days-of-week">
-                        <li>Monday:</li>
-                        <li>Tuesday:</li>
-                        <li>Wednesday:</li>
-                        <li>Thursday:</li>
-                        <li>Friday:</li>
-                    </li>
-                    <li className="opening-hours">
-                        <li>09:00-18:00</li>
-                        <li>09:00-18:00</li>
-                        <li>09:00-18:00</li>
-                        <li>09:00-18:00</li>
-                        <li>09:00-18:00</li>
-                    </li>
+                    <div className="days-of-week">
+                        <li id="monday-hours">Monday:</li>
+                        <li id="tuesday-hours">Tuesday:</li>
+                        <li id="wednesday-hours">Wednesday:</li>
+                        <li id="thursday-hours">Thursday:</li>
+                        <li id="friday-hours">Friday:</li>
+                    </div>
+                    <div className="opening-hours">
+                        <li id="monday-hours-hours">09:00-18:00</li>
+                        <li id="tuesday-hours-hours">09:00-18:00</li>
+                        <li id="wednesday-hours-hours">09:00-18:00</li>
+                        <li id="thursday-hours-hours">09:00-18:00</li>
+                        <li id="friday-hours-hours">09:00-18:00</li>
+                    </div>
                 </ul>
             </section>
 
             <section id="contact">
                 <h4 className="footer-section-title">Contact</h4>
                 <ul id="contact-info">
-                    <li id="contact-icons">
-                        <li><span><img src={TelephoneIcon} alt="telephone icon"/></span></li>
-                        <li><span><img src={EmailIcon} alt="email icon" /></span></li>
-                        <li className="location-item"><span><img src={LocationIcon} alt="location icon" /></span></li>
-                    </li>
-                    <li id="contact-data">
-                        <li className="contact-item"><p>000-000-0000</p></li>
-                        <li className="contact-item"><p>info@email.com</p></li>
-                        <li className="contact-item location-item"><p>New York, US</p></li>
-                    </li>
+                    <div id="contact-icons">
+                        <li id="contact-telephone-icon">
+                            <span><img src={TelephoneIcon} alt="telephone icon" /></span>
+                        </li>
+
+                        <li id="contact-email-icon">
+                            <span><img src={EmailIcon} alt="email icon" /></span>
+                        </li>
+
+                        <li id="contact-location-icon" className="location-item"
+                        ><span><img src={LocationIcon} alt="location icon" /></span>
+                        </li>
+                    </div>
+
+                    <div id="contact-data">
+                        <li id="contact-telephone-data" className="contact-item">
+                            <p>000-000-0000</p>
+                        </li>
+
+                        <li id="contact-email-data" className="contact-item">
+                            <p>info@email.com</p>
+                        </li>
+                        <li id="contact-location-data" className="contact-item location-item">
+                            <p>New York, US</p>
+                        </li>
+                    </div>
                 </ul>
             </section>
 

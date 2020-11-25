@@ -19,14 +19,16 @@ const Services = () => {
 
     return (
         <section id="services-page" className="page">
-            <p class="subtitle services-title">OUR SERVICES</p>
-            <h2 class="main-page-title services-title">What We Offer</h2>
+            <p className="subtitle services-title">OUR SERVICES</p>
+            <h2 className="main-page-title services-title">What We Offer</h2>
 
             <section className="cards-conteiner">
                 {services.map(service => {
                     return (
                         <ServiceCard
-                            btnId={service.btnId}
+                            key={service.id}
+                            id={service.id}
+                            btnId={`${service.btnId}`}
                             image={images[counter++]}
                             title={service.title}
                             description={service.description}

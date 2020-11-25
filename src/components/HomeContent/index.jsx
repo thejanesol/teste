@@ -20,12 +20,12 @@ const HomeContent = () => {
             TwitterLogo = {TwitterLogo}
             />
             <section id="description">
-                <h1 class="word-break main-page-title">
+                <h1 className="word-break main-page-title">
                     <span>SOCIAL</span>
                     <span>MEDIA FOR BUSINESS</span>
                 </h1>
 
-                <p id="description-text" class="word-break light-paragraph">
+                <p id="description-text" className="word-break light-paragraph">
                     <span>PERFOMANCE BASED SOCIAL MEDIA AGENCY</span>
                     <span>WE ARE LOREM MEDIA</span>
                 </p>

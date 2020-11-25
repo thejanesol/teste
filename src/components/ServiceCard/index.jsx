@@ -5,7 +5,7 @@ import "./ServiceCard.css";
 
 const ServiceCard = (data) => {
     return (
-        <section className="card">
+        <section key={data.id} id={data.id} className="card">
             <img className="card-img" src={data.image} alt={data.title}/>
             <h4 className="card-title">{data.title}</h4>
             <p>{data.description}</p>

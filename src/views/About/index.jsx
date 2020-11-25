@@ -6,13 +6,13 @@ import "./About.css";
 
 const About = () => {
     return (
-        <section id="about-page" class="page">
+        <section id="about-page" className="page">
             <img id="about-img" src={AboutImage} alt="undraw_social_dashboard_k3pt" />
 
             <section id="about-content">
-                <p class="subtitle">Biography</p>
-                <h2 class="main-page-title">Who We Are</h2>
-                <p class="light-paragraph">
+                <p className="subtitle">Biography</p>
+                <h2 className="main-page-title">Who We Are</h2>
+                <p className="light-paragraph">
                     Lorem Media is a full-service social media agency.
                     We offer businesses innovative solutions that deliver
                     the right type of audience to you in the most effective
@@ -20,11 +20,11 @@ const About = () => {
                     your business, polishing your branding, and improving your public
                     relations.
                 </p>
-                <p class="light-paragraph">
+                <p className="light-paragraph">
                     Social media is now one of the most powerful marketing
                     tools with the ability to communicate with a target audience in real time.
                 </p>
-                <p id="last-paragraph" class="light-paragraph">It's 2019: time to sink or swim.</p>
+                <p id="last-paragraph" className="light-paragraph">It's 2019: time to sink or swim.</p>
 
                 <PurpleButton id="see-more" title="SEE MORE"/>
 
