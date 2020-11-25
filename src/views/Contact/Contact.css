@@ -1,8 +1,11 @@
 #contact-page {
     position: relative;
 
+    height: 110vh;
     padding-top: 20vh;
+
     text-align: center;
+    color: #FFFFFF;
 }
 
 .contact-page-title {

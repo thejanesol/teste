@@ -1,23 +1,21 @@
 #footer-content {
-    margin: 0 10vw;
-
     position: absolute;
     bottom: 0;
 
-    width: 80vw;
-    padding: 2em 0 2em 0;
+    width: 100vw;
+    height: 80vh;
+    padding: 0;
 
     display: flex;
     justify-content: space-evenly;
 
-    color: #FFFFFF;
-    background: transparent linear-gradient(141deg, #867EFF 0%, #6159E5 100%) 0% 0% no-repeat padding-box;
-    border-top-left-radius: 10em;
-    border-top-right-radius: 10em;    
+    background: url("../../img/bg/bg-footer.svg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #footer-logo {
-    margin: 2.5vh 0;
+    margin: 38vh 0 6vh 0;
     font-size: 1.8em;
 }
 
@@ -42,6 +40,7 @@
 }
 
 .footer-section-title {
+    margin-top: 38vh;
     margin-bottom: 5vh;
     font-weight: 500;
     font-size: 1.2em;

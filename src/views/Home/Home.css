@@ -2,7 +2,12 @@
     display: flex;
     justify-content: space-between;
 
-    background: linear-gradient(to bottom left, #9992fa 20%, #ffffff 100%);}
+    background-image: url("../../img/bg/bg-home.svg");
+    background-repeat: no-repeat;
+
+    background-position: top right;
+    background-size: 55% 100%;
+}
 
 #home-logo {
     position: absolute;
